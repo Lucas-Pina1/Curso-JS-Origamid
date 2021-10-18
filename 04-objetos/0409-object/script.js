@@ -13,9 +13,10 @@ const quadrado = {};
 Object.defineProperties(quadrado, {
   lados: {
     value: 4,
-    enumerable: true,
+    enunrable:true,
   }
 })
+
 
 console.log(quadrado)
 
@@ -31,6 +32,5 @@ Object.freeze(configuracao);
 // Liste o nome de todas
 // as propriedades do
 // protótipo de String e Array
-
-console.log(Object.getOwnPropertyNames(String.prototype))
-console.log(Object.getOwnPropertyNames(Array.prototype))
+console.log(Object.getOwnPropertyNames(String.prototype));
+console.log(Object.getOwnPropertyNames(Array.prototype));
